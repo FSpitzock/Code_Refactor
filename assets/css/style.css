@@ -12,13 +12,17 @@ body {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #404040;
+  background-color: #5c2323;
   color: #ffffff;
-}
+  text-align: center;
+} /*centered header*/
 
 .header h1 {
   display: inline-block;
   font-size: 48px;
+  text-align: center;
+  font-style: italic;
+ 
 }
 
 .header h1 .seo {
@@ -31,22 +35,25 @@ body {
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
-}
-
-.header .kai {
   font-style: italic;
-  font-size: larger ;
-  color:rgba(157, 173, 18, 0.679) ;
-} /*added style to the word Kai*/
+  }
+/*added italic style*/
 
-.header div ul {
-  list-style-type: none;
-}
+.flex-container {
+  display: flex;
+  justify-content: center; 
+    
+} /* Centered menu list */
 
-.header div ul li {
+ div ul li {
   display: inline-block;
   margin-left: 25px;
 }
+
+ div ul li :hover {
+  color: black;
+}
+/*added hover over header list*/
 
 a {
   color: #ffffff;
